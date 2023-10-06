@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CHOSEN NUMBER</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="cursor"></div>
+        <section class="loading_page">
+            <h1>CHARGEMENT...</h1>
+        </section>
+        <button class="back_button displayNone">retour</button>
+        <h1 class="game_logo">
+            <div class="d1">CHOSEN</div><br/>
+            <div class="d2">
+                <span>N</span>
+                <span>U</span>
+                <span>M</span>
+                <span>B</span>
+                <span>E</span>
+                <span>R</span>
+            </div>
+        </h1>
+        <main>
+            <div class="main_inhibiting displayNone"></div>
+            <section class="main_menu">
+                <button class="class">jouer</button>
+                <button class="class">mode d'emploi</button>
+                <button class="class">apropos</button>
+            </section>
+            <section class="interface_jeu">
+                <div class="game_loader displayNone">
+                    <span class="random_number">14</span>
+                    <div class="load1"></div>
+                    <div class="load2"></div>
+                    <div class="load3"></div>
+                </div>
+                <h1 class="game_inst">Choisissez un nombre dans votre cœur <br/> puis appuyez sur demarrer</h1>
+                <section class="section_tableaux">
+                    <!-- Full tab DEBUT -->
+                    <table class="full_tab">
+                        <tr>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>7</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>12</td>
+                            <td>13</td>
+                            <td>14</td>
+                            <td>15</td>
+                            <td>16</td>
+                        </tr>
+                        <tr>
+                            <td>17</td>
+                            <td>18</td>
+                            <td>19</td>
+                            <td>20</td>
+                            <td>21</td>
+                            <td>22</td>
+                            <td>23</td>
+                            <td>24</td>
+                        </tr>
+                        <tr>
+                            <td>25</td>
+                            <td>26</td>
+                            <td>27</td>
+                            <td>28</td>
+                            <td>29</td>
+                            <td>30</td>
+                            <td>31</td>
+                            <td>32</td>
+                        </tr>
+                        <tr>
+                            <td>33</td>
+                            <td>34</td>
+                            <td>35</td>
+                            <td>36</td>
+                            <td>37</td>
+                            <td>38</td>
+                            <td>39</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>41</td>
+                            <td>42</td>
+                            <td>43</td>
+                            <td>44</td>
+                            <td>45</td>
+                            <td>46</td>
+                            <td>47</td>
+                            <td>48</td>
+                        </tr>
+                        <tr>
+                            <td>49</td>
+                            <td>50</td>
+                            <td>51</td>
+                            <td>52</td>
+                            <td>53</td>
+                            <td>54</td>
+                            <td>55</td>
+                            <td>56</td>
+                        </tr>
+                        <tr>
+                            <td>57</td>
+                            <td>58</td>
+                            <td>59</td>
+                            <td>60</td>
+                            <td>61</td>
+                            <td>62</td>
+                            <td>63</td>
+                            <td>64</td>
+                        </tr>
+                    </table>
+                    <!-- Full tab FIN -->
+
+                    <!-- Tableau A DEBUT -->
+                    <table class="tab_A">
+                        <tr>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>12</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>17</td>
+                            <td>18</td>
+                            <td>19</td>
+                            <td>20</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>25</td>
+                            <td>26</td>
+                            <td>27</td>
+                            <td>28</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>33</td>
+                            <td>34</td>
+                            <td>35</td>
+                            <td>36</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>41</td>
+                            <td>42</td>
+                            <td>43</td>
+                            <td>44</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>49</td>
+                            <td>50</td>
+                            <td>51</td>
+                            <td>52</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>57</td>
+                            <td>58</td>
+                            <td>59</td>
+                            <td>60</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                    <!-- Tableau A FIN -->
+
+                    <!-- Tableau B DEBUT -->
+                    <table class="tab_B">
+                        <tr>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>12</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>17</td>
+                            <td>18</td>
+                            <td>19</td>
+                            <td>20</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>25</td>
+                            <td>26</td>
+                            <td>27</td>
+                            <td>28</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>37</td>
+                            <td>38</td>
+                            <td>39</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>45</td>
+                            <td>46</td>
+                            <td>47</td>
+                            <td>48</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>53</td>
+                            <td>54</td>
+                            <td>55</td>
+                            <td>56</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>61</td>
+                            <td>62</td>
+                            <td>63</td>
+                            <td>64</td>
+                        </tr>
+                    </table>
+                    <!-- Tableau B FIN -->
+                    
+                    <!-- Tableau C DEBUT -->
+                    <table class="tab_C">
+                        <tr>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>7</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>12</td>
+                            <td>13</td>
+                            <td>14</td>
+                            <td>15</td>
+                            <td>16</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>33</td>
+                            <td>34</td>
+                            <td>35</td>
+                            <td>36</td>
+                            <td>37</td>
+                            <td>38</td>
+                            <td>39</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>41</td>
+                            <td>42</td>
+                            <td>43</td>
+                            <td>44</td>
+                            <td>45</td>
+                            <td>46</td>
+                            <td>47</td>
+                            <td>48</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                    <!-- Tableau C FIN -->
+
+                    <!-- Tableau D DEBUT -->
+                    <table class="tab_D">
+                        <tr>
+                            <td>1</td>
+                            <td>2</td>
+                            <td></td>
+                            <td></td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>10</td>
+                            <td></td>
+                            <td></td>
+                            <td>13</td>
+                            <td>14</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>17</td>
+                            <td>18</td>
+                            <td></td>
+                            <td></td>
+                            <td>21</td>
+                            <td>22</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>25</td>
+                            <td>26</td>
+                            <td></td>
+                            <td></td>
+                            <td>29</td>
+                            <td>30</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>33</td>
+                            <td>34</td>
+                            <td></td>
+                            <td></td>
+                            <td>37</td>
+                            <td>38</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>41</td>
+                            <td>42</td>
+                            <td></td>
+                            <td></td>
+                            <td>45</td>
+                            <td>46</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>49</td>
+                            <td>50</td>
+                            <td></td>
+                            <td></td>
+                            <td>53</td>
+                            <td>54</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>57</td>
+                            <td>58</td>
+                            <td></td>
+                            <td></td>
+                            <td>61</td>
+                            <td>62</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                    <!-- Tableau D FIN -->
+
+                    
+                    <!-- Tableau E DEBUT -->
+                    <table class="tab_E">
+                        <tr>
+                            <td>1</td>
+                            <td></td>
+                            <td>3</td>
+                            <td></td>
+                            <td>5</td>
+                            <td></td>
+                            <td>7</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td></td>
+                            <td>11</td>
+                            <td></td>
+                            <td>13</td>
+                            <td></td>
+                            <td>15</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>17</td>
+                            <td></td>
+                            <td>19</td>
+                            <td></td>
+                            <td>21</td>
+                            <td></td>
+                            <td>23</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>25</td>
+                            <td></td>
+                            <td>27</td>
+                            <td></td>
+                            <td>29</td>
+                            <td></td>
+                            <td>31</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>33</td>
+                            <td></td>
+                            <td>35</td>
+                            <td></td>
+                            <td>37</td>
+                            <td></td>
+                            <td>39</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>41</td>
+                            <td></td>
+                            <td>43</td>
+                            <td></td>
+                            <td>45</td>
+                            <td></td>
+                            <td>47</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>49</td>
+                            <td></td>
+                            <td>51</td>
+                            <td></td>
+                            <td>53</td>
+                            <td></td>
+                            <td>55</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>57</td>
+                            <td></td>
+                            <td>59</td>
+                            <td></td>
+                            <td>61</td>
+                            <td></td>
+                            <td>63</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                    <!-- Tableau E FIN -->
+
+                    
+                    <!-- Tableau F DEBUT -->
+                    <table class="tab_F">
+                        <tr>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>7</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>17</td>
+                            <td>18</td>
+                            <td>19</td>
+                            <td>20</td>
+                            <td>21</td>
+                            <td>22</td>
+                            <td>23</td>
+                            <td>24</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>33</td>
+                            <td>34</td>
+                            <td>35</td>
+                            <td>36</td>
+                            <td>37</td>
+                            <td>38</td>
+                            <td>39</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>49</td>
+                            <td>50</td>
+                            <td>51</td>
+                            <td>52</td>
+                            <td>53</td>
+                            <td>54</td>
+                            <td>55</td>
+                            <td>56</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                    <!-- Tableau F FIN -->
+                </section>
+                <div class="btns_box">
+                    <button class="start_btn displayNone">demarrer</button>
+                    <button class="restart_btn displayNone">rejouer</button>
+                    <button class="yes_btn displayNone">oui</button>
+                    <button class="no_btn displayNone">non</button>
+                </div>
+                <div class="alert_close_game displayNone">
+                    <h1>attention</h1>
+                    <p>Confirmer l'interuption de la partie</p>
+                    <div class="acg_btns">
+                        <button>confirmer</button>
+                        <button>annuler</button>
+                    </div>
+                </div>
+            </section>
+            <section class="mode_emploi">
+                <div>
+                    <h2>TUTORIEL</h2>
+                    <p>
+                        Bienvenue sur <span class="game_name">CHOSEN NUMBER</span> ! Cette application magique est capable de deviner un nombre que vous avez choisi dans votre cœur, parmi un tableau de nombres allant de 1 à 64.<br/>
+                        Au démarrage du programme, vous serez invité à choisir un nombre entre 1 et 64. Assurez-vous de choisir un nombre et de le retenir secrètement. Le programme va maintenant se connecter à la zone de votre esprit qui garde les nombres auxquels vous pensez.<br/>
+                        Préparez-vous à être émerveillé par la magie de CHOSEN NUMBER !<br/>
+                        Maintenant, lancez l'application et choisissez votre nombre secret. Une série de tableaux vous sera présentée, et vous devrez répondre avec sincérité à chaque fois en disant "OUI" si votre nombre se trouve dans le tableau, ou "NON" s'il n'y est pas.<br/>
+                        Laissez CHOSEN NUMBER faire sa magie et vous surprendre avec sa capacité à deviner votre nombre !<br/>
+                        N'hésitez pas à répéter le processus autant de fois que vous le souhaitez pour expérimenter la magie de CHOSEN NUMBER.<br/>
+                        Amusez-vous bien et profitez de cette expérience unique !<br/>
+                    </p>
+                </div>
+            </section>
+            <section class="apropos">
+                <h1>Apropos</h1>
+                <p><strong>Chosen Number</strong> est une application conçue et développée par <i>Fraanck Boris Koffi</i>. Elle a été inspirée par un ami du collège, <i>Kaou K. Ange</i> qui avait eu l'inspiration de ce petit jeu de devinette et l'avait réaliser sur papier pour y jouer avec ses amis.
+                    Chosen Number est donc un programme qui reprend ce jeu papier atravers une expérience unmérique interactive et divertissante.
+                </p>
+                <p class="first_about"><span>Developpeur:</span> <span>Franck Boris Koffi</span></p>
+                <p class="first_about"><span>Designer:</span> <span>Franck Boris Koffi</span></p>
+                <p class="first_about"><span>Version:</span> <span>1.10.0</span></p>
+                <p>
+                    <h2 class="dev_about">Apropos du developpeur</h2>
+                    <p> Franck Boris Koffi, étudiant en licence d'Informatique et Science du Numérique en spécialité de Developpement d'Application à l'université virtuelle de côte d'ivoire. Developpeur web front-end, web designer et inphographiste</p>
+                </p>
+                <a href="mailto:boris.version3.O@gmail.com">Email: boris.version3.O@gmail.com</a>
+            </section>
+        </main>
+
+
+
+
+
+        <script src="app.js"></script>
+    </body>
+</html>
